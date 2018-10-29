@@ -1,6 +1,34 @@
 //chapter 2 section 3.1 - The divide-and-conquer approach
 
 /**
+ * sorts an array by using the divide-and-conquer method
+ * splits the array into halves and merges them recursively
+ *
+ * best case Ω(n log(n))
+ * avg case Θ(n log(n))
+ * worst case O(n log(n))
+ *
+ * @param A is the array
+ * @returns A (sorted)
+ */
+function mergeSort(A){
+
+    //base case for the recursion
+    if (A.length === 1){
+        return A;
+    }
+
+    //mid element (pivot point for dividing)
+    const mid = Math.floor(A.length/2);
+    //left array
+    const L = A.slice(0, mid);
+    //right arrays
+    const R = A.slice(mid);
+
+    return merge(mergeSort(L), mergeSort(R));
+}
+
+/**
  * helper function for mergeSort
  * compares the array item by item
  *
@@ -39,33 +67,6 @@ function merge(l, r){
     return sortedArray.concat(l.slice(lIndex)).concat(r.slice(rIndex));
 }
 
-/**
- * sorts an array by using the divide-and-conquer method
- * splits the array into halves and merges them recursively
- *
- * best case Ω(n log(n))
- * avg case Θ(n log(n))
- * worst case O(n log(n))
- *
- * @param A is the array
- * @returns A (sorted)
- */
-function mergeSort(A){
-
-    //base case for the recursion
-    if (A.length === 1){
-        return A;
-    }
-
-    //mid element (pivot point for dividing)
-    const mid = Math.floor(A.length/2);
-    //left array
-    const L = A.slice(0, mid);
-    //right arrays
-    const R = A.slice(mid);
-
-    return merge(mergeSort(L), mergeSort(R));
-}
 
 let A = [2,5,1,3,7,2,3,8,6,3];
 console.log(mergeSort(A));

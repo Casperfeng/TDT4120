@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ef5973d-5aff-4ed0-bdfb-0364519f2e2c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/sorting/quickSort.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bucketSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/bucketSort.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/countingSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/countingSort.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insertionSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/insertionSort.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mergeSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/mergeSort.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/radixSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/radixSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/bucketSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countingSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/countingSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insertionSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/insertionSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mergeSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/mergeSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/radixSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/radixSort.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,36 +23,49 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="countingSort.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/countingSort.js">
+        <entry file="file://$PROJECT_DIR$/sorting/countingSort.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="insertionSort.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/insertionSort.js">
+        <entry file="file://$PROJECT_DIR$/sorting/insertionSort.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="34" column="1" selection-start-line="11" selection-end-line="34" selection-end-column="1" />
+            <state relative-caret-position="225">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quickSort.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sorting/quickSort.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="radixSort.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/radixSort.js">
+        <entry file="file://$PROJECT_DIR$/sorting/radixSort.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="bucketSort.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bucketSort.js">
+      <file leaf-file-name="bucketSort.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sorting/bucketSort.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+            <state relative-caret-position="60">
+              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="mergeSort.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mergeSort.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/sorting/mergeSort.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -69,11 +83,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mergeSort.js" />
         <option value="$PROJECT_DIR$/countingSort.js" />
         <option value="$PROJECT_DIR$/radixSort.js" />
         <option value="$PROJECT_DIR$/insertionSort.js" />
         <option value="$PROJECT_DIR$/bucketSort.js" />
+        <option value="$PROJECT_DIR$/mergeSort.js" />
+        <option value="$PROJECT_DIR$/quickSort.js" />
       </list>
     </option>
   </component>
@@ -92,9 +107,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="700" />
+    <option name="y" value="23" />
+    <option name="width" value="740" />
+    <option name="height" value="821" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -122,6 +139,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sorting" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -135,8 +157,8 @@
     </option>
   </component>
   <component name="RunManager" selected="Node.js.bucketSort.js">
-    <configuration name="bucketSort.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="bucketSort.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="mergeSort.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="mergeSort.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="bucketSort.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/sorting/bucketSort.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="mergeSort.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/sorting/mergeSort.js" working-dir="$PROJECT_DIR$" />
     <list>
       <item itemvalue="Node.js.mergeSort.js" />
       <item itemvalue="Node.js.bucketSort.js" />
@@ -158,22 +180,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540808537497</updated>
-      <workItem from="1540808538612" duration="12410000" />
+      <workItem from="1540808538612" duration="14157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12410000" />
+    <option name="totallyTimeSpent" value="14157000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="700" y="23" width="740" height="821" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21041666" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40945947" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41037735" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.46586347" />
       <window_info anchor="bottom" id="Version Control" weight="0.0754717" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
@@ -214,26 +236,37 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/countingSort.js">
+    <entry file="file://$PROJECT_DIR$/sorting/countingSort.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/radixSort.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mergeSort.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insertionSort.js">
+    <entry file="file://$PROJECT_DIR$/sorting/insertionSort.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="34" column="1" selection-start-line="11" selection-end-line="34" selection-end-column="1" />
+        <state relative-caret-position="225">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bucketSort.js">
+    <entry file="file://$PROJECT_DIR$/sorting/mergeSort.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        <state relative-caret-position="1020">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting/bucketSort.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting/radixSort.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting/quickSort.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
         </state>
       </provider>
     </entry>
