@@ -91,7 +91,8 @@ function buildMaxHeap(A){
 /**
  * builds a heap then sorts it
  *
- * runtime 
+ * runtime O(n lg n)
+ *
  * @param A
  */
 function heapSort(A){
@@ -105,12 +106,3 @@ function heapSort(A){
         maxHeapify(A,0);
     }
 }
-
-function maxHeapInsert(){}
-
-function heapExtractMax(){}
-
-function heapIncreaseKey(){}
-
-function heapMaximum(){}
-
