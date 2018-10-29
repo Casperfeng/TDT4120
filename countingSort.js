@@ -1,12 +1,15 @@
 'use strict';
 
 //chapter 8 section 2 - Counting sort
-//best case Ω(n+k)
-//avg case Θ(n+k)
-//worst case O(n+k)
+
 /**
  * Checks the frequency of numbers
  * runs in linear time
+ *
+ * best case Ω(n+k)
+ * avg case Θ(n+k)
+ * worst case O(n+k)
+ *
  * @param A is the unsorted array
  * @param B is where the sorted array is stored
  * @param k is the maximum element

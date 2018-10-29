@@ -1,12 +1,14 @@
 'use strict';
 
 //chapter 2 section 1 - Insertion sort
-//best case Ω(n)
-//avg case Θ(n^2)
-//worst case O(n^2)
 
 /**
  * checks every element and "compares" key and value
+ *
+ * best case Ω(n)
+ * avg case Θ(n^2)
+ * worst case O(n^2)
+ *
  * @param A is the array to be sorted
  */
 function insertionSort(A){
