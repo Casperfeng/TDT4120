@@ -1,6 +1,9 @@
 'use strict';
 
 //chapter 2 section 1 - Insertion sort
+//best case Ω(n)
+//avg case Θ(n^2)
+//worst case O(n^2)
 
 function insertionSort(A){
 
@@ -17,9 +20,12 @@ function insertionSort(A){
         //runs until index is 0 or when key is placed correctly in the sorted part
         //exits the loop when an item is placed at the correct position
         while (i>= 0 && A[i] > key){
-            A[]
+
+            //exchange element at index i and the key
+            A[i + 1] = A[i];
+            i = i - 1;
         }
-
-
+        //when the while loop terminates key-value is inserted
+        A[i + 1] = key;
     }
 }

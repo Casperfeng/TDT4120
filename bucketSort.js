@@ -8,6 +8,7 @@
 function bucketSort(A){
     let B = [];
     for (let i = 0; i < A.length; i++){
-        B[i] = 
+        
     }
+
 }
