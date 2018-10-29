@@ -4,7 +4,13 @@
 //best case Ω(n+k)
 //avg case Θ(n+k)
 //worst case O(n+k)
-
+/**
+ * Checks the frequency of numbers
+ * runs in linear time
+ * @param A is the unsorted array
+ * @param B is where the sorted array is stored
+ * @param k is the maximum element
+ */
 function countingSort(A,B,k){
 
     //initialize the C-array that is used to store frequency of numbers

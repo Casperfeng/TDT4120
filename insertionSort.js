@@ -5,6 +5,10 @@
 //avg case Θ(n^2)
 //worst case O(n^2)
 
+/**
+ * checks every element and "compares" key and value
+ * @param A is the array to be sorted
+ */
 function insertionSort(A){
 
     //the array is divided into "sorted" and "unsorted" sections
