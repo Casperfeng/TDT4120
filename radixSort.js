@@ -1,4 +1,3 @@
-'use strict';
 //Not implemented yet
 
 //chapter 8 section 3 - Radix sort

@@ -1,5 +1,3 @@
-'use strict';
-
 //chapter 2 section 1 - Insertion sort
 
 /**

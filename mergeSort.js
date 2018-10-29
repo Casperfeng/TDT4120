@@ -1,4 +1,3 @@
-'use strict';
 //chapter 2 section 3.1 - The divide-and-conquer approach
 
 /**
