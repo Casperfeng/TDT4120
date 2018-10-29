@@ -1,6 +1,10 @@
 'use strict';
 
 //chapter 8 section 2 - Counting sort
+//best case Ω(n+k)
+//avg case Θ(n+k)
+//worst case O(n+k)
+
 function countingSort(A,B,k){
 
     //initialize the C-array that is used to store frequency of numbers
