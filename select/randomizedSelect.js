@@ -84,6 +84,18 @@ function randomizedPartition(A,p,r){
 
 //chapter 9 section 2 - Selection in expected linear time
 
+/**
+ * makes it possible to select the ith largest element
+ *
+ * avg case O(n)
+ * worst case O(n^2)
+ *
+ * @param A is the array to be searched
+ * @param p is an index
+ * @param r is an index
+ * @param i is the ith greatest element
+ * @return the ith greatest element
+ */
 function randomizedSelect(A, p, r, i){
 
     //base case
@@ -91,8 +103,30 @@ function randomizedSelect(A, p, r, i){
         return A[p];
     }
 
+    //partitions the array into two sub arrays
     //sets the rightmost index
+    //such that A[...q-1] <= A[q] and A[q+1...] >= A[q]
     let q = randomizedPartition(A, p, r);
+
+    //how many element there are to the left side (q - p)
+    // + 1 because of the pivot element
+    let k = q - p + 1;
+
+    //if the pivot value is the answer
+    if (i === k){
+        return A[q];
+    }
+
+    //checks whether the ith element is
+    //in the left or right sub array
+    else if (i < k){
+        return randomizedSelect(A,p,q-1,i);
+    }
+    else {
+        return randomizedSelect(A,q+1,r,i-k);
+    }
+
+
 
 }
 
