@@ -1,3 +1,7 @@
+/**
+ * @author Casper Feng
+ */
+
 //chapter 7 section 3 - A randomized version of quick sort (to be used later)
 
 /**
@@ -89,7 +93,7 @@ function randomizedSelect(A, p, r, i){
 
     //sets the rightmost index
     let q = randomizedPartition(A, p, r);
-    
+
 }
 
 

@@ -1,5 +1,8 @@
-//chapter 7 section 1 - Description of quick sort
+/**
+ * @author Casper Feng
+ */
 
+//chapter 7 section 1 - Description of quick sort
 
 /**
  * sorts in place and uses no extra memory

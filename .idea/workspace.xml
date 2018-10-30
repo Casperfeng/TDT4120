@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ef5973d-5aff-4ed0-bdfb-0364519f2e2c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/sorting/randomizedQuicksort.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/select/randomizedSelect.js" beforeDir="false" afterPath="$PROJECT_DIR$/select/randomizedSelect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/bucketSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/bucketSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/countingSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/countingSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/heapSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/heapSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/insertionSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/insertionSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/mergeSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/mergeSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/quickSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/quickSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/radixSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/radixSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/randomizedQuicksort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/randomizedQuicksort.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +27,17 @@
       <file leaf-file-name="countingSort.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sorting/countingSort.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            <state relative-caret-position="15">
+              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bucketSort.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sorting/bucketSort.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -30,8 +45,32 @@
       <file leaf-file-name="quickSort.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sorting/quickSort.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="20" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mergeSort.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sorting/mergeSort.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="radixSort.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sorting/radixSort.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,16 +79,19 @@
         <entry file="file://$PROJECT_DIR$/select/randomizedSelect.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="78" selection-end-column="1" />
+              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="randomizedQuicksort.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="randomizedQuicksort.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sorting/randomizedQuicksort.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="98" column="1" lean-forward="true" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
+            <state relative-caret-position="15">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -57,8 +99,20 @@
       <file leaf-file-name="insertionSort.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sorting/insertionSort.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="heapSort.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sorting/heapSort.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -84,11 +138,15 @@
         <option value="$PROJECT_DIR$/bucketSort.js" />
         <option value="$PROJECT_DIR$/mergeSort.js" />
         <option value="$PROJECT_DIR$/quickSort.js" />
-        <option value="$PROJECT_DIR$/sorting/countingSort.js" />
-        <option value="$PROJECT_DIR$/sorting/heapSort.js" />
-        <option value="$PROJECT_DIR$/sorting/quickSort.js" />
         <option value="$PROJECT_DIR$/select/randomizedSelect.js" />
         <option value="$PROJECT_DIR$/sorting/randomizedQuicksort.js" />
+        <option value="$PROJECT_DIR$/sorting/mergeSort.js" />
+        <option value="$PROJECT_DIR$/sorting/radixSort.js" />
+        <option value="$PROJECT_DIR$/sorting/quickSort.js" />
+        <option value="$PROJECT_DIR$/sorting/insertionSort.js" />
+        <option value="$PROJECT_DIR$/sorting/heapSort.js" />
+        <option value="$PROJECT_DIR$/sorting/countingSort.js" />
+        <option value="$PROJECT_DIR$/sorting/bucketSort.js" />
       </list>
     </option>
   </component>
@@ -194,12 +252,12 @@
       <option name="presentableId" value="Default" />
       <updated>1540808537497</updated>
       <workItem from="1540808538612" duration="14449000" />
-      <workItem from="1540831423826" duration="6648000" />
+      <workItem from="1540831423826" duration="6904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21097000" />
+    <option name="totallyTimeSpent" value="21353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="707" y="23" width="733" height="815" extended-state="0" />
@@ -257,62 +315,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sorting/mergeSort.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorting/radixSort.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorting/bucketSort.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorting/heapSort.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="94" column="2" lean-forward="true" selection-start-line="94" selection-start-column="2" selection-end-line="94" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorting/countingSort.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorting/insertionSort.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/select/randomizedSelect.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="78" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorting/quickSort.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="8" selection-end-column="20" />
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sorting/randomizedQuicksort.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="98" column="1" lean-forward="true" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
+        <state relative-caret-position="15">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting/radixSort.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting/quickSort.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting/mergeSort.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting/insertionSort.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting/heapSort.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting/countingSort.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting/bucketSort.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
         </state>
       </provider>
     </entry>

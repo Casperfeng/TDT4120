@@ -1,3 +1,7 @@
+/**
+ * @author Casper Feng
+ */
+
 //chapter 8 section 2 - Counting sort
 
 /**

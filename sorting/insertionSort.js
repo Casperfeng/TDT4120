@@ -1,3 +1,7 @@
+/**
+ * @author Casper Feng
+ */
+
 //chapter 2 section 1 - Insertion sort
 
 /**

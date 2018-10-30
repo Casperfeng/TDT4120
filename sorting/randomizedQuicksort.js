@@ -1,3 +1,7 @@
+/**
+ * @author Casper Feng
+ */
+
 //chapter 7 section 3 - A randomized version of quick sort
 
 /**

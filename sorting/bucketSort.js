@@ -1,3 +1,7 @@
+/**
+ * @author Casper Feng
+ */
+
 //chapter 8 section 4 - Bucket sort
 /**
  * sorts an array given that it is uniformly distributed

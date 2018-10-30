@@ -1,3 +1,7 @@
+/**
+ * @author Casper Feng
+ */
+
 //chapter 6 section 4 - The heap sort algorithm
 
 /**
