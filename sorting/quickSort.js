@@ -2,6 +2,11 @@
 
 
 /**
+ * sorts in place and uses no extra memory
+ *
+ * best case Ω(n log(n))
+ * avg case Θ(n log(n))
+ * worst case O(n^2)
  *
  * @param A is array to be sorted
  * @param p is an index
