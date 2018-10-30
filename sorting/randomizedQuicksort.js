@@ -1,4 +1,4 @@
-//chapter 7 section 3 - A randomized version of quick sort (to be used later)
+//chapter 7 section 3 - A randomized version of quick sort
 
 /**
  * helper method in order to generate a random number between min and max
@@ -78,19 +78,22 @@ function randomizedPartition(A,p,r){
     return partition(A,p,r);
 }
 
-//chapter 9 section 2 - Selection in expected linear time
-
-function randomizedSelect(A, p, r, i){
-
-    //base case
-    if (p === r){
-        return A[p];
+/**
+ * less cases of worst case scenario happening.
+ *
+ * best case Ω(n log(n))
+ * avg case Θ(n log(n))
+ * worst case O(n^2)
+ *
+ * @param A is the array to be sorted
+ * @param p is an index
+ * @param r is an index
+ * given that p <= r
+ */
+function randomizedQuicksort(A, p, r){
+    if (p < r){
+        let q = randomizedPartition(A, p, r);
+        randomizedQuicksort(A,p,q-1);
+        randomizedQuicksort(A,q+1,r);
     }
-
-    //sets the rightmost index
-    let q = randomizedPartition(A, p, r);
-    
 }
-
-
-
