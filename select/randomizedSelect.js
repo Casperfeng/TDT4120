@@ -86,7 +86,7 @@ function randomizedPartition(A,p,r){
 
 /**
  * makes it possible to select the ith largest element
- * is faster than sorting then finding the element
+ * is faster than sorting then finding the element  
  *
  * avg case O(n)
  * worst case O(n^2)
