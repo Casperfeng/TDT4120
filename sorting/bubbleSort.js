@@ -1,3 +1,6 @@
+/**
+ * @author Casper Feng
+ */
 function bubbleSort(A){
     let len = A.length;
     for (let i = 0; i < len ; i++) {
